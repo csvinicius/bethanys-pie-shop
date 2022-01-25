@@ -69,6 +69,9 @@ article {
   width: 75%;
 }
 
+.columns {
+  display: flex;
+}
 /* rules applied only in screens with min-width: 768px(Desktops) */
 @media screen and (min-width: 768px) {
   main {
@@ -78,4 +81,10 @@ article {
   aside{
     margin-left: 2%;
   }
+
+  .columns-desktop {
+    display: flex;
+  }
 }
+
+/* Pies */
