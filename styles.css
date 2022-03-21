@@ -1,0 +1,65 @@
+body {
+  margin: 0px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6e4d9;
+}
+
+#mainheader {
+  background-color: #a593c2;
+}
+
+nav {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto 20px;
+}
+
+div {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leftmenu {
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#leftmenu header h4 {
+  text-align: center;
+}
+
+#leftmenu header .searchbox {
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+
+#main {
+  float: right;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+}
+
+div section img {
+  width: 500px; 
+  height: 300px;
+}
+
+/* structure for older browsers */
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+}

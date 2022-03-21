@@ -1,59 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="site.css" type="text/css">
-  <title>Bethany's Pie Shop</title>
-  <style>
-    h1{
-      font-size: 3em;
-      margin-top: 0.5em;
-    }
+    <meta charset="utf-8">
+    <meta name="author" content="Vinicius Sousa">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
 
-    .banner{
-      max-width: 100%;
-    }
+    <title>Welcome to Bethany's Pie Shop!</title>
 
-    .sub-title{
-      background-color: #fff;
-      font-size: 1.5em;
-      padding: 10px;
-    }
-  </style>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--[if lt IE 9]> 
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="pies.html">Pies</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <aside><img src="images/logo.png" alt="Bethany's Pie Shop"></aside>
-    <article>
-      <img src="images/banner.png" class="banner" alt="Bethany's Pie Shop">
-      <h1>Welcome to Bethany's Pie Shop</h1>
-      <p class="sub-title">
-        From pecan to plum, our pies are made in with the warmth and tradition of home.
-        Take a moment to
-        <a href="pies.html">browse our pies</a>
-        and see which of our delectable desserts are soon to arrive on your doorstep.
-      </p>
-    </article>
-  </main>
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="pies.html">Pies</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <header id="mainheader">
+        <nav>
+            Header goes here
+        </nav>
+    </header>
+
+    <div>
+        
+        <aside id="leftmenu">
+            <header>
+                <h4>
+                    Browse our pies
+                </h4>
+            </header>
+            <input type="search" class="searchbox" placeholder="Search our store">
+        </aside>
+
+        <main id="main">
+            <article>
+                <header>
+                    <h1>Welcome to Bethany's Pie Shop!</h1>
+                </header>
+                <h2>Our history</h2>
+
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color:blueviolet;">
+                    For many years, <b>Bethany</b> has been baking the most delicious pies at her home. In 2013, we opened our first
+                    store in São Paulo (Brazil) in a cosy little street near the Grand Market. People from all over the world fell
+                    in love
+                    with the soft cakes, heavenly cheese cakes, spicy apple pies... <i>The store became a success in no time. </i>
+                    <br>In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved into a larger building.
+                    After receiving many requests, it became clear that our next step was making it possible to order pies from the
+                    comfort of your own home and from anywhere in the world. You are now looking at the result of this: our very own
+                    webstore, making it possible to order Bethany's delicious pies whenever you feel like it!
+                </p>
+
+                <p>
+                    Bethany is famous using only the best ingredients. This way, we can make sure that our pieces are absolutely the best.
+                </p>
+            </article>
+            <section>
+                <h3>Our weekly promotions</h3>
+
+                <h4>Cheese cake</h4>
+
+                $12.95 - serves 4<br>
+
+                <img src="./assets/pies/cheesecake.jpg" alt="cheese cake image">
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Our address is <address>Bethany's Pie Shop - Address</address>
+            </p>
+            <small>2022 Bethany's Pie Shop  - All rights reserved</small> 
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
+
+<!--
+<hr>
+
+
+<br>
+
+
+-->
