@@ -11,6 +11,7 @@
 
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 
     <!--[if lt IE 9]> 
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -18,16 +19,20 @@
 </head>
 
 <body>
+    <article></article>
     <header id="mainheader">
         <nav>
-            <img src="assets/images/cake.svg" alt="A piece of cake" height="55px" />
+            <ul>
+                <li><img src="assets/images/cake.svg" height="55" /></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pieoverview.html">All pies</a></li>
+            </ul>
         </nav>
     </header>
 
     <div>
-
         <aside id="leftmenu">
-            <img src="assets/images/bethanylogo.png" alt="">
+            <a href="index.html"><img src="assets/images/bethanylogo.png" /></a>
             <header>
                 <h4>
                     Browse our pies
@@ -45,6 +50,11 @@
                     <img src="assets/images/products/applepie.jpg" alt="Apple pie" width="600px">
                     <figcaption>Our world-famous apple pie</figcaption>
                 </figure>
+
+
+                <button onclick="save()" type="button">Save as favorite</button>
+                <span id="favorite"></span>
+
 
                 <div style="background-color: #f8f4f1;">
                     <strong>Price: $12.95</strong>
@@ -86,9 +96,45 @@
                     <h2>How we make this pie</h2>
                     <ol>
                         <li>
-                            First we combine sugar, flour and spices. We toss the apples with some lemon juice and add sugar.
+                            First we combine sugar, flour and spices. We toss the apples with some lemon juice and add
+                            sugar.
+                        </li>
+                        <li>
+                            We then create the bottom crust and fill thar with apple mixture. We put some butter on that
+                            then roll remaining crust to fit top pie.
+                        </li>
+                        <li>
+                            Then we beat the eggs white until we have a foamy mix. THat is the crust. We sprinkle some
+                            extra sugar.
+                        </li>
+                        <li>
+                            Then the pie goes into oven at 360º for 35 minutes. When ready, we let it cool on a wire
+                            rack.
                         </li>
                     </ol>
+                    <ol start="5">
+                        <li>
+                            If something goes wrong, we start all over again!
+                        </li>
+                    </ol>
+
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Butter</li>
+                        <li>Eggs</li>
+                        <li>Sugar</li>
+                        <ul>
+                            <li>Regular sugar</li>
+                            <li>Brown sugar</li>
+                            <li>Caster sugar</li>
+                        </ul>
+                        <li>Flour</li>
+                        <li>Cinnamon</li>
+                        <li>Ginger</li>
+                        <li>Nutmeg</li>
+                        <li>Apples</li>
+                        <li>Lemons</li>
+                    </ul>
                 </div>
             </article>
         </main>
